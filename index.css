@@ -1,0 +1,172 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.container-fluid {
+    background-color:#415165 ;
+    margin: 72px 0px;
+    color:white;
+}
+.resume_title h1 {
+    font-size: 80px;
+    line-height: 106px;
+    border-bottom: 2px solid black;
+    margin-bottom: 48px;
+    font-family: 'Roboto', sans-serif;
+}
+.resume_title img {
+    margin-bottom: 48px;
+}
+.title {
+    border-bottom:1px solid black;
+    margin-bottom: 16px;
+}
+.title h2{
+    font-size: 32px;
+    line-height: 43px;
+    display:inline;
+    margin-right: 16px;
+}
+.titleEn {
+    font-size: 24px;
+    line-height: 32px;
+    vertical-align:text-bottom;
+    color:#A00404;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.resume_intro img {
+    display:block;
+    margin: 8px 0px;
+}
+.resume_intro li {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 24px;
+}
+.resume_intro p {
+    width:642px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.title_white {
+    border-bottom:1px solid white;
+    margin-bottom: 40px;
+}
+.title_white h3 {
+    font-size: 32px;
+    line-height: 45px;
+    display:inline;
+    margin-right: 16px;
+    color:white;
+}
+.titleEn_white {
+    font-size: 24px;
+    line-height: 32px;
+    color:white;
+    vertical-align:text-bottom;
+    font-family: 'Roboto', sans-serif;
+}
+.works_intro {
+    margin-left:20px;
+    border-left: 1px solid #000;
+    margin-left: 24px;
+}
+.works_intro li {
+    margin-left: 24px;
+}
+.skills,.contact {
+    color:white;
+    width:996px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top:24px;
+    padding-bottom: 36px;
+}
+.skills_list {
+    margin-bottom: 36px;
+    text-align: left;
+    width:20%;
+    margin: 0 auto;
+    border-left: 1px solid white;
+}
+.skills_list li,.contact_list li {
+    margin-left: 16px;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 16px;
+    white-space: nowrap;
+    font-family: 'Roboto', sans-serif;
+}
+.fab {
+    margin-right: 16px;
+}
+.fa-facebook-square:hover {
+    color:blue;
+}
+.fa-instagram:hover {
+    color:purple;
+}
+.fa-line:hover {
+    color:green;
+}
+.contact_list a {
+    text-decoration: none;
+    color:white;
+}
+.file_link a:hover {
+    color:red;
+}
