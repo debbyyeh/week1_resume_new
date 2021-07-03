@@ -59,6 +59,7 @@ table {
     margin: 72px 0px;
     color:white;
 }
+
 .resume_title h1 {
     font-size: 80px;
     line-height: 106px;
@@ -87,7 +88,6 @@ table {
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
-
 .resume_intro img {
     display:block;
     margin: 8px 0px;
@@ -150,6 +150,9 @@ table {
     margin-bottom: 16px;
     white-space: nowrap;
     font-family: 'Roboto', sans-serif;
+}
+.img_wrapper {
+    background-image: url(week1_resume/image/Group\ 1.svg);
 }
 .fab {
     margin-right: 16px;
